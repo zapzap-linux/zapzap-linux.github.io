@@ -1,6 +1,7 @@
 import Navbar from './components/navbar'
 import Home from './partials/home'
 import Donate from './partials/donate'
+import Download from './partials/download'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <main>
       <Navbar />
       <Home />
+      <Download />
       <Donate />
     </main>
   )
