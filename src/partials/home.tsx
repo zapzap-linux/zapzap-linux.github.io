@@ -18,7 +18,7 @@ function Home() {
                         <a href="/#download">Get Started</a>
                     </button>
                     <button className='backdrop-blur-sm bg-black/30 text-white font-semibold text-md lg:text-sm py-3 px-4 rounded-lg hover:bg-black/50'>
-                        <a href="/#readmore">Learn More</a>
+                        <a href="/#features">Learn More</a>
                     </button>
                 </div>
             </div>
