@@ -4,39 +4,24 @@ function Home() {
 
     return (
         <div id="home"
-            className="bg-white min-h-screen flex flex-col items-center justify-center py-16 px-4">
-            <div className="bg-white md:w-2/3 flex flex-col items-center justify-center">
+            className="bg-light dark:bg-gray-800 min-h-fit flex flex-col items-center justify-center py-16 px-4">
+            <div className="w-screen md:w-2/3 flex flex-col items-center justify-center gap-6 p-20 rounded-lg">
 
-                <img src={laptop} className="w-80 p-2" alt="Laptop logo" />
-                <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 ">ZapZap</h1>
-                <h1 className="text-xl font-bold text-gray-800 mb-4">Whatsapp Desktop for Linux</h1>
-                <p className="text-gray-600 mb-6 text-center w-3/4 sm:w-2/3">
-                    O cliente Whatsapp que torna a sua experiência mais fácil, produtiva e nativa no Linux.
+                <img src={laptop} className="w-64" alt="Laptop logo" />
+                <h1 className="text-4xl lg:text-6xl text-gray-800 dark:text-white font-extrabold">ZapZap</h1>
+                <p className="text-base lg:text-xl text-gray-800 dark:text-white text-center lg:w-2/5">
+                    Your WhatsApp Desktop for Linux with a native application experience.
                 </p>
 
-                <div>
-                    <p className="text-gray-600 mb-6">
-                        Veja algumas de nossas incríveis funcionalidades:
-                    </p>
-                    <ul className="list-disc pl-6 text-gray-700">
-                        <li className="mb-2">Múltiplos usuários: Use várias contas de whatsapp ao mesmo tempo.</li>
-                        <li className="mb-2">Ícone na bandeja: Indica quando houver novas mensagens.</li>
-                        <li className="mb-2">Compartilhamento de Mídia: Arraste para o chat e compartilhe fotos, vídeos e documentos facilmente.</li>
-                        <li className="mb-2">Integração com o sistema: Notificações, temas, execução em segundo plano e <a href="" className='text-blue-700 hover:font-bold'>muitos mais</a>.</li>
-                    </ul>
-                </div>
-
-                <div className='flex flex-row gap-x-6 justify-center items-center mt-8'>
-                    <button className="bg-green-500 hover:bg-green-600 text-white font-semibold text-md py-2 px-4 rounded-full">
-                        <a href="/#download">Experimente o ZapZap</a>
+                <div className='flex flex-row w-screen gap-x-6 justify-center items-center'>
+                    <button className="bg-green-500 hover:bg-green-600 text-white font-semibold text-md py-3 px-4 rounded-lg">
+                        <a href="/#download">Get Started</a>
                     </button>
-                    <button className='text-gray-800 font-semibold text-md py-2 px-4 rounded-full hover:bg-slate-100'>
-                        <a href="/#readmore">Saiba mais</a>
+                    <button className='backdrop-blur-sm bg-black/30 text-white font-semibold text-md lg:text-sm py-3 px-4 rounded-lg hover:bg-black/50'>
+                        <a href="/#readmore">Learn More</a>
                     </button>
                 </div>
-            
             </div>
-
         </div>
     );
 }
