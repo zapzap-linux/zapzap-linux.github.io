@@ -1,26 +1,34 @@
-export const navigation = [
-    { name: "Início", href: "/" },
-    { name: "Doações", href: "/#donate" },
+import { Navbar as NavbarFlowbite } from 'flowbite-react';
+import logo from '/zapzap-icon.svg'
+
+export const navigationLinks = [
+    { name: "Home", href: "/#home" },
+    { name: "Features", href: "/#features" },
+    { name: "Gallery", href: "/#gallery" },
+    { name: "Download", href: "/#download" },
+    { name: "Donate", href: "/#donate" },
 ];
 
-
-function Navbar() {
+export function Navbar() {
 
     return (
-        <nav className="fixed p-3 px-6 tracking-wide flex flex-row gap-x-8 justify-start w-full bg-slate-50/50 backdrop-blur-lg shadow-lg">
-            <div className="flex flex-row gap-x-8">
-                {navigation.map((item) => (
-                    <a key={item.name} href={item.href}>
-                        <p className="font-mono text-sm hover:font-extrabold text-green-500 hover:scale-110">
-                            {item.name}
-                        </p>
-                    </a>
+        < NavbarFlowbite fluid rounded
+            className='fixed w-full bg-light dark:bg-dark shadow-sm'>
+            <NavbarFlowbite.Brand href="#home">
+                <img src={logo} className="mr-3 h-6 sm:h-9" alt="ZapZap Logo" />
+                <span className="self-center whitespace-nowrap text-xl font-semibold text-dark dark:text-light">ZapZap</span>
+            </NavbarFlowbite.Brand>
+            <NavbarFlowbite.Toggle />
+            <NavbarFlowbite.Collapse>
+                {navigationLinks.map((item) => (
+                    <NavbarFlowbite.Link key={item.name} href={item.href}
+                        className='text-base font-normal hover:font-bold hover:scale-105 text-dark dark:text-light'>
+                        {item.name}
+                    </NavbarFlowbite.Link>
                 ))}
-            </div>
+            </NavbarFlowbite.Collapse>
+        </NavbarFlowbite >
 
-        </nav>
+
     );
 }
-
-
-export default Navbar;
