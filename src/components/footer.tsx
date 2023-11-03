@@ -5,7 +5,8 @@ import { navigationLinks } from './navbar';
 
 function Footer() {
     return (
-        <FooterFlowbite container>
+        <FooterFlowbite container
+            className='bg-light dark:bg-dark rounded-none'>
             <div className="w-full text-center">
                 <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                     <FooterFlowbite.Brand
