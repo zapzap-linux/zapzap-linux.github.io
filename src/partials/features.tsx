@@ -1,15 +1,20 @@
 import zapiIcon from '/zapzap-icon.svg'
 
 function Features() {
-    return (<div id="features"
-        className="bg-dark dark:bg-light min-h-fit flex flex-col items-center justify-center px-4">
-        <div className="w-screen md:w-2/3 flex flex-col items-center justify-center gap-6 p-20 rounded-lg">
-            <h1 className="text-4xl lg:text-6xl text-light dark:text-dark font-extrabold">Features</h1>
-            <p className="text-base lg:text-xl text-light dark:text-dark text-center lg:w-4/5">
-                Zapzap aims to facilitate the use of WhatsappWeb on Linux, making it your use experience closer to a native application.
-            </p>
+    return (
+        <div id="features"
+            className="bg-dark dark:bg-light flex flex-col justify-center items-center gap-8 py-20 w-full">
+            <div className="flex flex-col justify-center items-center w-2/3 gap-y-4">
+                <p className="text-light dark:text-dark text-4xl lg:text-6xl font-extrabold">
+                    Features
+                </p>
+                <p className="text-light dark:text-dark text-base lg:text-xl text-center md:w-2/3 lg:w-2/5">
+                    Zapzap aims to facilitate the use of WhatsappWeb on Linux, making it your use experience closer to a native application.
+                </p>
+            </div>
 
-            <div className='flex flex-row w-screen justify-center items-center px-4'>
+
+            <div className='flex flex-row justify-center items-center px-4'>
                 <img src={zapiIcon} className="w-80 p-2 hidden lg:flex" alt="Logo" />
                 <div>
                     <ul className="list-disc pl-6 text-light dark:text-dark">
@@ -26,7 +31,7 @@ function Features() {
             </div>
 
         </div>
-    </div>);
+    );
 }
 
 export default Features;
