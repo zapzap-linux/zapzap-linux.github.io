@@ -18,14 +18,14 @@ function Features() {
                 <img src={zapiIcon} className="w-80 p-2 hidden lg:flex" alt="Logo" />
                 <div>
                     <ul className="list-disc pl-6 text-light dark:text-dark">
-                        <li className="mb-2"><b>Múltiplos usuários:</b> Use várias contas de Whatsapp ao mesmo tempo.</li>
-                        <li className="mb-2"><b>Ícone na bandeja:</b> Indica quando houver novas mensagens e a possibilidade de personalizá-los.</li>
-                        <li className="mb-2"><b>Compartilhamento de Mídia:</b> Arraste para o chat e compartilhe fotos, vídeos e documentos facilmente.</li>
-                        <li className="mb-2"><b>Spellchecker:</b> Nâo escreva errado! </li>
-                        <li className="mb-2"><b>Execução em segundo plano:</b> Execute em segundo plano e inicialize junto com o sistema.</li>
-                        <li className="mb-2"><b>Temas:</b> Segue o estilo do sistema (claro e escuro).</li>
-                        <li className="mb-2"><b>Notificações:</b> Notificações nativas à sua distribuição.</li>
-                        <li className="mb-2"><b>Personalized window decoration:</b> Decoração da janela personalizado.</li>
+                        <li className="mb-2"> <b> Multiple users: </b> use multiple WhatsApp accounts at the same time. </li>
+                        <li className="mb-2"> <b> Tray icon: </b> indicates when there are new messages and the ability to customize them. </li>
+                        <li className="mb-2"> <b> Media sharing: </b> drag for chat and share photos, videos and documents easily. </li>
+                        <li className="mb-2"> <b> Spellchecker: </b> do not write wrong!</li>
+                        <li className="mb-2"> <b> Run in the background: </b> Run in the background and initiate along with the system. </li>
+                        <li className="mb-2"> <b> Themes: </b> follows the system style (light and dark). </li>
+                        <li className="mb-2"> <b> Notifications: </b> native notifications to your distribution. </li>
+                        <li className="mb-2"> <b> Personalized Window Decoration: </b> Personalized window decoration. </li>
                     </ul>
                 </div>
             </div>
