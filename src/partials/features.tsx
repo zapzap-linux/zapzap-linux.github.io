@@ -19,13 +19,14 @@ function Features() {
                 <div>
                     <ul className="list-disc pl-6 text-light dark:text-dark">
                         <li className="mb-2"> <b> Multiple users: </b> use multiple WhatsApp accounts at the same time. </li>
-                        <li className="mb-2"> <b> Tray icon: </b> indicates when there are new messages and the ability to customize them. </li>
-                        <li className="mb-2"> <b> Media sharing: </b> drag for chat and share photos, videos and documents easily. </li>
-                        <li className="mb-2"> <b> Spellchecker: </b> do not write wrong!</li>
-                        <li className="mb-2"> <b> Run in the background: </b> Run in the background and initiate along with the system. </li>
-                        <li className="mb-2"> <b> Themes: </b> follows the system style (light and dark). </li>
-                        <li className="mb-2"> <b> Notifications: </b> native notifications to your distribution. </li>
-                        <li className="mb-2"> <b> Personalized Window Decoration: </b> Personalized window decoration. </li>
+                        <li className="mb-2"> <b> Tray icon: </b> indicates when there are new messages in a customizable way. </li>
+                        <li className="mb-2"> <b> Media sharing: </b> drag-and-drop support for photos, videos and documents. </li>
+                        <li className="mb-2"> <b> Spellchecker: </b> so you make less mistakes.</li>
+                        <li className="mb-2"> <b> Daemon mode: </b> you can choose to let the app background and start after logging in. </li>
+                        <li className="mb-2"> <b> Themes: </b> the app adapts to the global theme (light or dark). </li>
+                        <li className="mb-2"> <b> Notifications: </b> native notifications for the Dekstop Environment of your choice. </li>
+                        <li className="mb-2"> <b> Personalized Window Decoration: </b> </li>
+                        <!-- Seriously, what is the personalized window decoration?? -->
                     </ul>
                 </div>
             </div>
