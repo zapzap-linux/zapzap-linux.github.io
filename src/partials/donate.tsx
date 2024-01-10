@@ -31,7 +31,7 @@ function Donate() {
             </div>
             
             <div className='flex flex-col justify-center items-center gap-2 pt-4'>
-                <p className='text-sm text-dark dark:text-light'>Others:</p>
+                <p className='text-sm text-dark dark:text-light'>Others:</p> <!-- TODO: make this bigger -->
                 <div className='flex flex-row justify-center items-center gap-2'>
                     <a href="https://www.paypal.com/donate/?business=E7R4BVR45GRC2&no_recurring=0&item_name=ZapZap+-+Whatsapp+Desktop+for+linux&currency_code=USD"
                         target='_blank'
