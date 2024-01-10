@@ -28,8 +28,11 @@ function Download() {
                 target="_blank">Access the official support here.</a>
 
             <div className="pt-4 text-light dark:text-dark text-sm flex flex-col justify-center items-center">
-                <p className="text-center">This software is licensed under the <a className="text-blue-600" href="https://github.com/zapzap-linux/zapzap/blob/main/LICENSE" target='_blank'>GPL versão 3</a>.</p>
-                <p className="text-center">The source code is available in <a className="text-blue-600" href="https://github.com/zapzap-linux/zapzap" target='_blank'>GitHub</a>.</p>
+                <p className="text-center">This software is licensed under the
+                    <a className="text-blue-600" href="https://github.com/zapzap-linux/zapzap/blob/main/LICENSE" target='_blank'>GPL v3</a>,
+                    with it's source code is available on
+                    <a className="text-blue-600" href="https://github.com/zapzap-linux/zapzap" target='_blank'>GitHub</a>.
+                </p>
             </div>
         </div>
     );
