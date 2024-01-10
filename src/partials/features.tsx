@@ -25,7 +25,7 @@ function Features() {
                         <li className="mb-2"> <b> Daemon mode: </b> you can choose to let the app background and start after logging in. </li>
                         <li className="mb-2"> <b> Themes: </b> the app adapts to the global theme (light or dark). </li>
                         <li className="mb-2"> <b> Notifications: </b> native notifications for the Dekstop Environment of your choice. </li>
-                        <li className="mb-2"> <b> Personalized Window Decoration: </b> </li>
+                        <li className="mb-2"> <b> Personalized Window Decoration </b> </li>
                         <!-- Seriously, what is the personalized window decoration?? -->
                     </ul>
                 </div>
