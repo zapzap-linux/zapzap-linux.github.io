@@ -9,10 +9,9 @@ function Features() {
                     Features
                 </p>
                 <p className="text-light dark:text-dark text-base lg:text-xl text-center md:w-2/3 lg:w-2/5">
-                    Zapzap aims to facilitate the use of WhatsappWeb on Linux, making it your use experience closer to a native application.
+                    Zapzap aims to facilitate the use of WhatsappWeb on Linux, bringing the webapp experience closer to a native application.
                 </p>
             </div>
-
 
             <div className='flex flex-row justify-center items-center px-4'>
                 <img src={zapiIcon} className="w-80 p-2 hidden lg:flex" alt="Logo" />
