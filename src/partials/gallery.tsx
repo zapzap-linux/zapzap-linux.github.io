@@ -20,7 +20,7 @@ function Gallery() {
                     Gallery
                 </p>
                 <p className="text-base lg:text-xl text-dark dark:text-white text-center md:w-2/3 lg:w-2/5">
-                    See some screenshot.
+                    Words, words, words... see some screenshots!
                 </p>
             </div>
             <div className='flex flex-row w-96 px-4 h-64 lg:h-[450px] lg:w-[750px] justify-center items-center'>
