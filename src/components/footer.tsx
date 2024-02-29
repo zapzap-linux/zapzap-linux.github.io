@@ -28,7 +28,7 @@ function Footer() {
                 <FooterFlowbite.Copyright
                     by="by Rafael Tosta"
                     href="https://rtosta.vercel.app/"
-                    year={2023}
+                    year={2023-2024}
                 />
             </div>
         </FooterFlowbite>

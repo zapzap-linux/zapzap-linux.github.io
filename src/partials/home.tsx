@@ -1,7 +1,6 @@
 import laptop from '/laptop-art.svg'
 
 function Home() {
-
     return (
         <div id="home"
             className='bg-light dark:bg-dark flex flex-col justify-center items-center gap-8 py-20 w-full'>
@@ -11,7 +10,7 @@ function Home() {
                     ZapZap
                 </p>
                 <p className="text-base lg:text-xl text-dark dark:text-white text-center md:w-2/3 lg:w-2/5">
-                    Your WhatsApp Desktop for Linux with a native application experience.
+                    A Linux WhatsApp webapp for with a native application experience.
                 </p>
             </div>
             <div className='flex flex-row gap-x-6 justify-center items-center'>

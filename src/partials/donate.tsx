@@ -10,7 +10,7 @@ function Donate() {
                     Donate
                 </p>
                 <p className="text-base lg:text-xl text-dark dark:text-white text-center md:w-2/3 lg:w-2/5">
-                    Make a donation and contribute to the project.
+                    Make contribute by making a donation to the project.
                 </p>
             </div>
 
@@ -29,8 +29,9 @@ function Donate() {
                     Faça um PIX
                 </a>
             </div>
+            
             <div className='flex flex-col justify-center items-center gap-2 pt-4'>
-                <p className='text-sm text-dark dark:text-light'>Others:</p>
+                <p className='text-sm text-dark dark:text-light'>Others:</p> <!-- TODO: make this bigger -->
                 <div className='flex flex-row justify-center items-center gap-2'>
                     <a href="https://www.paypal.com/donate/?business=E7R4BVR45GRC2&no_recurring=0&item_name=ZapZap+-+Whatsapp+Desktop+for+linux&currency_code=USD"
                         target='_blank'
@@ -39,8 +40,8 @@ function Donate() {
                     <a href="https://github.com/sponsors/rafatosta"
                         target='_blank'
                         className='text-sm text-dark dark:text-light hover:text-blue-700 hover:font-bold'>GitHub Sponsor</a>
-
                 </div>
+                
             </div>
         </div >
     );
