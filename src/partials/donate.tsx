@@ -31,15 +31,15 @@ function Donate() {
             </div>
             
             <div className='flex flex-col justify-center items-center gap-2 pt-4'>
-                <p className='text-sm text-dark dark:text-light'>Others:</p> <!-- TODO: make this bigger -->
+                <p className='text-md text-dark dark:text-light'>Others:</p>
                 <div className='flex flex-row justify-center items-center gap-2'>
                     <a href="https://www.paypal.com/donate/?business=E7R4BVR45GRC2&no_recurring=0&item_name=ZapZap+-+Whatsapp+Desktop+for+linux&currency_code=USD"
                         target='_blank'
-                        className='text-sm text-dark dark:text-light hover:text-blue-700 hover:font-bold'>PayPal</a>
+                        className='text-md text-dark dark:text-light hover:text-blue-700 hover:font-bold'>PayPal</a>
                     <p className='dark:text-white'>-</p>
                     <a href="https://github.com/sponsors/rafatosta"
                         target='_blank'
-                        className='text-sm text-dark dark:text-light hover:text-blue-700 hover:font-bold'>GitHub Sponsor</a>
+                        className='text-md text-dark dark:text-light hover:text-blue-700 hover:font-bold'>GitHub Sponsor</a>
                 </div>
                 
             </div>
